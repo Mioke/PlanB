@@ -1,0 +1,6 @@
+framework module Pods_PlanB {
+  umbrella header "Pods-PlanB-umbrella.h"
+
+  export *
+  module * { export * }
+}
