@@ -13,6 +13,15 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        let group = WorkGroup(id: 12, name: "test group")
+        WorkGroupTable().replaceRecord(group)
+        
+        let thing = Thing(createDate: NSDate(), beginDate: NSDate(), planDays: 2, isEmergency: false)
+        thing.groupId = group.id
+        thing.remark = "test thing"
+        
+        ThingTable().replaceRecord(thing)
     }
 
     override func didReceiveMemoryWarning() {

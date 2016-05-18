@@ -137,9 +137,16 @@ class KMPersistanceTable: NSObject {
 protocol RecordProtocol: PersistanceManagerProtocol {
     
     func dictionaryRepresentationInTable(table: TableProtocol) -> [String: AnyObject]?
+    static func readFromQueryResultDictionary(dictionary: NSDictionary, table: TableProtocol) -> RecordProtocol?
 }
 
-
+// Default implementation, make this func optional-like
+extension RecordProtocol {
+    
+    static func readFromQueryResultDictionary(dictionary: NSDictionary, table: TableProtocol) -> RecordProtocol? {
+        return nil
+    }
+}
 
 
 

@@ -19,7 +19,7 @@ class DatabaseCommand: NSObject {
         let params = NSMutableArray()
         
         for key in table.tableColumnInfo.keys {
-            params.addObject("\(key) \(table.tableColumnInfo[key]!)")
+            params.addObject("'\(key)' \(table.tableColumnInfo[key]!)")
         }
         
         let sql = "create table if not exists '\(table.tableName)' (\(params.componentsJoinedByString(",")))"
@@ -39,7 +39,7 @@ class DatabaseCommand: NSObject {
         let values = NSMutableArray()
         
         for key in params.keys {
-            content.addObject("\(key)")
+            content.addObject("'\(key)'")
             values.addObject(":\(key)")
         }
         sql += "\(content.componentsJoinedByString(","))) values (\(values.componentsJoinedByString(",")))"

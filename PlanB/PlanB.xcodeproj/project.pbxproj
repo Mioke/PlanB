@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF78455E1CE9A81C0020F6E8 /* Thing.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF78455D1CE9A81C0020F6E8 /* Thing.swift */; };
+		AF7845651CE9AC9B0020F6E8 /* ThingTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7845641CE9AC9B0020F6E8 /* ThingTable.swift */; };
+		AF7845671CE9AFF90020F6E8 /* WorkGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7845661CE9AFF90020F6E8 /* WorkGroup.swift */; };
+		AF7845691CE9B12D0020F6E8 /* WorkGroupTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7845681CE9B12D0020F6E8 /* WorkGroupTable.swift */; };
+		AF78456C1CE9B9D80020F6E8 /* CoreService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF78456B1CE9B9D80020F6E8 /* CoreService.swift */; };
+		AF7845701CE9C8690020F6E8 /* NSDate+Extentsions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF78456F1CE9C8690020F6E8 /* NSDate+Extentsions.swift */; };
+		AF7845721CEAB7790020F6E8 /* InternalTestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7845711CEAB7790020F6E8 /* InternalTestVC.swift */; };
+		AF7845781CEABD7B0020F6E8 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7845771CEABD7B0020F6E8 /* MainViewController.swift */; };
+		AF78457B1CEAC4C70020F6E8 /* ThingSummaryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF78457A1CEAC4C70020F6E8 /* ThingSummaryCell.swift */; };
+		AF78457D1CEAFEC60020F6E8 /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF78457C1CEAFEC60020F6E8 /* AppConfig.swift */; };
+		AF7845801CEB09DC0020F6E8 /* AddGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF78457F1CEB09DC0020F6E8 /* AddGroupViewController.swift */; };
+		AF7845831CEB0ACA0020F6E8 /* GroupSelectTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7845821CEB0ACA0020F6E8 /* GroupSelectTableViewCell.swift */; };
 		AFA0F7881CE97104009D1218 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA0F7871CE97104009D1218 /* AppDelegate.swift */; };
 		AFA0F78A1CE97104009D1218 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA0F7891CE97104009D1218 /* ViewController.swift */; };
 		AFA0F78D1CE97104009D1218 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFA0F78B1CE97104009D1218 /* Main.storyboard */; };
@@ -45,6 +57,18 @@
 /* Begin PBXFileReference section */
 		4616F3CD723E427E3EEF5142 /* Pods_PlanB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlanB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		49AF0EDE29870DF877E7BF71 /* Pods-PlanB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlanB.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PlanB/Pods-PlanB.debug.xcconfig"; sourceTree = "<group>"; };
+		AF78455D1CE9A81C0020F6E8 /* Thing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Thing.swift; sourceTree = "<group>"; };
+		AF7845641CE9AC9B0020F6E8 /* ThingTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThingTable.swift; sourceTree = "<group>"; };
+		AF7845661CE9AFF90020F6E8 /* WorkGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkGroup.swift; sourceTree = "<group>"; };
+		AF7845681CE9B12D0020F6E8 /* WorkGroupTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkGroupTable.swift; sourceTree = "<group>"; };
+		AF78456B1CE9B9D80020F6E8 /* CoreService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreService.swift; sourceTree = "<group>"; };
+		AF78456F1CE9C8690020F6E8 /* NSDate+Extentsions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDate+Extentsions.swift"; sourceTree = "<group>"; };
+		AF7845711CEAB7790020F6E8 /* InternalTestVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InternalTestVC.swift; sourceTree = "<group>"; };
+		AF7845771CEABD7B0020F6E8 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		AF78457A1CEAC4C70020F6E8 /* ThingSummaryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThingSummaryCell.swift; sourceTree = "<group>"; };
+		AF78457C1CEAFEC60020F6E8 /* AppConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
+		AF78457F1CEB09DC0020F6E8 /* AddGroupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddGroupViewController.swift; sourceTree = "<group>"; };
+		AF7845821CEB0ACA0020F6E8 /* GroupSelectTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupSelectTableViewCell.swift; sourceTree = "<group>"; };
 		AFA0F7841CE97104009D1218 /* PlanB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlanB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFA0F7871CE97104009D1218 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AFA0F7891CE97104009D1218 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -113,6 +137,84 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		AF78455B1CE9A6FE0020F6E8 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				AF7845631CE9AC010020F6E8 /* Tables */,
+				AF78455C1CE9A7190020F6E8 /* Model */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		AF78455C1CE9A7190020F6E8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AF78455D1CE9A81C0020F6E8 /* Thing.swift */,
+				AF7845661CE9AFF90020F6E8 /* WorkGroup.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AF7845631CE9AC010020F6E8 /* Tables */ = {
+			isa = PBXGroup;
+			children = (
+				AF7845641CE9AC9B0020F6E8 /* ThingTable.swift */,
+				AF7845681CE9B12D0020F6E8 /* WorkGroupTable.swift */,
+			);
+			path = Tables;
+			sourceTree = "<group>";
+		};
+		AF78456A1CE9B9590020F6E8 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				AF78456B1CE9B9D80020F6E8 /* CoreService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		AF7845731CEABD2C0020F6E8 /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				AF78457E1CEB09C70020F6E8 /* AddGroupViewController */,
+				AF7845741CEABD3E0020F6E8 /* MainPage */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
+		AF7845741CEABD3E0020F6E8 /* MainPage */ = {
+			isa = PBXGroup;
+			children = (
+				AF7845791CEAC37E0020F6E8 /* Views */,
+				AF7845771CEABD7B0020F6E8 /* MainViewController.swift */,
+			);
+			path = MainPage;
+			sourceTree = "<group>";
+		};
+		AF7845791CEAC37E0020F6E8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AF78457A1CEAC4C70020F6E8 /* ThingSummaryCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		AF78457E1CEB09C70020F6E8 /* AddGroupViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AF7845811CEB0AB50020F6E8 /* Views */,
+				AF78457F1CEB09DC0020F6E8 /* AddGroupViewController.swift */,
+			);
+			path = AddGroupViewController;
+			sourceTree = "<group>";
+		};
+		AF7845811CEB0AB50020F6E8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AF7845821CEB0ACA0020F6E8 /* GroupSelectTableViewCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
 		AFA0F77B1CE97103009D1218 = {
 			isa = PBXGroup;
 			children = (
@@ -134,6 +236,9 @@
 		AFA0F7861CE97104009D1218 /* PlanB */ = {
 			isa = PBXGroup;
 			children = (
+				AF7845731CEABD2C0020F6E8 /* Pages */,
+				AF78456A1CE9B9590020F6E8 /* Services */,
+				AF78455B1CE9A6FE0020F6E8 /* Sources */,
 				AFA0F7DE1CE971E4009D1218 /* AppGlobal */,
 				AFA0F7991CE971D5009D1218 /* Base */,
 				AFA0F7DF1CE9720E009D1218 /* Resources */,
@@ -174,6 +279,7 @@
 				AFA0F7A01CE971D5009D1218 /* String+Extensions.swift */,
 				AFA0F7A11CE971D5009D1218 /* UIColor+Extensions.swift */,
 				AFA0F7A21CE971D5009D1218 /* UIView+Extensions.swift */,
+				AF78456F1CE9C8690020F6E8 /* NSDate+Extentsions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -292,6 +398,8 @@
 			isa = PBXGroup;
 			children = (
 				AFA0F7871CE97104009D1218 /* AppDelegate.swift */,
+				AF78457C1CEAFEC60020F6E8 /* AppConfig.swift */,
+				AF7845711CEAB7790020F6E8 /* InternalTestVC.swift */,
 			);
 			name = AppGlobal;
 			sourceTree = "<group>";
@@ -344,6 +452,7 @@
 				TargetAttributes = {
 					AFA0F7831CE97104009D1218 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = GAM7WF67F4;
 					};
 				};
 			};
@@ -431,10 +540,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF78456C1CE9B9D80020F6E8 /* CoreService.swift in Sources */,
 				AFA0F7D61CE971D5009D1218 /* NetworkManagerProtocol.swift in Sources */,
 				AFA0F7D31CE971D5009D1218 /* NetworkManager.swift in Sources */,
 				AFA0F7DA1CE971D5009D1218 /* DefaultDatabase.swift in Sources */,
+				AF7845801CEB09DC0020F6E8 /* AddGroupViewController.swift in Sources */,
 				AFA0F7DC1CE971D5009D1218 /* KMPersistance.swift in Sources */,
+				AF7845721CEAB7790020F6E8 /* InternalTestVC.swift in Sources */,
+				AF7845651CE9AC9B0020F6E8 /* ThingTable.swift in Sources */,
 				AFA0F78A1CE97104009D1218 /* ViewController.swift in Sources */,
 				AFA0F7C71CE971D5009D1218 /* String+Extensions.swift in Sources */,
 				AFA0F7DB1CE971D5009D1218 /* DatabaseCommand.swift in Sources */,
@@ -449,17 +562,25 @@
 				AFA0F7D41CE971D5009D1218 /* ApiCallbackProtocol.swift in Sources */,
 				AFA0F7CD1CE971D5009D1218 /* SystemLogFilesBrowser.swift in Sources */,
 				AFA0F7881CE97104009D1218 /* AppDelegate.swift in Sources */,
+				AF7845781CEABD7B0020F6E8 /* MainViewController.swift in Sources */,
 				AFA0F7CA1CE971D5009D1218 /* ModuleLoader.swift in Sources */,
+				AF7845831CEB0ACA0020F6E8 /* GroupSelectTableViewCell.swift in Sources */,
 				AFA0F7C61CE971D5009D1218 /* CollectionType+Extension.swift in Sources */,
 				AFA0F7CC1CE971D5009D1218 /* SystemLogBrowser.swift in Sources */,
+				AF78457B1CEAC4C70020F6E8 /* ThingSummaryCell.swift in Sources */,
 				AFA0F7D51CE971D5009D1218 /* ApiInfoProtocol.swift in Sources */,
 				AFA0F7C31CE971D5009D1218 /* publicFunctions.swift in Sources */,
 				AFA0F7D11CE971D5009D1218 /* NetworkCache.swift in Sources */,
 				AFA0F7CB1CE971D5009D1218 /* SystemLog.swift in Sources */,
+				AF7845671CE9AFF90020F6E8 /* WorkGroup.swift in Sources */,
 				AFA0F7DD1CE971D5009D1218 /* TaskManageProtocols.swift in Sources */,
 				AFA0F7C41CE971D5009D1218 /* UIRelevance.swift in Sources */,
 				AFA0F7D01CE971D5009D1218 /* BaseApiManager.swift in Sources */,
+				AF78455E1CE9A81C0020F6E8 /* Thing.swift in Sources */,
 				AFA0F7D81CE971D5009D1218 /* UIViewController+TaskManager.swift in Sources */,
+				AF78457D1CEAFEC60020F6E8 /* AppConfig.swift in Sources */,
+				AF7845691CE9B12D0020F6E8 /* WorkGroupTable.swift in Sources */,
+				AF7845701CE9C8690020F6E8 /* NSDate+Extentsions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -576,6 +697,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/PlanB/PlanB-pch.pch";
 				INFOPLIST_FILE = PlanB/Info.plist;
@@ -583,6 +705,7 @@
 				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\" -D DEBUG";
 				PRODUCT_BUNDLE_IDENTIFIER = com.klein.PlanB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/PlanB/PlanB-Bridge-Header.h";
 			};
 			name = Debug;
@@ -593,12 +716,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/PlanB/PlanB-pch.pch";
 				INFOPLIST_FILE = PlanB/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.klein.PlanB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/PlanB/PlanB-Bridge-Header.h";
 			};
 			name = Release;
