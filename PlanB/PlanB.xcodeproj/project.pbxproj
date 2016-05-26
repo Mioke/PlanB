@@ -19,6 +19,8 @@
 		AF78457D1CEAFEC60020F6E8 /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF78457C1CEAFEC60020F6E8 /* AppConfig.swift */; };
 		AF7845801CEB09DC0020F6E8 /* AddGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF78457F1CEB09DC0020F6E8 /* AddGroupViewController.swift */; };
 		AF7845831CEB0ACA0020F6E8 /* GroupSelectTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7845821CEB0ACA0020F6E8 /* GroupSelectTableViewCell.swift */; };
+		AF7845861CEC1DE30020F6E8 /* ThingInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7845851CEC1DE30020F6E8 /* ThingInfoViewController.swift */; };
+		AF7845881CEDC35F0020F6E8 /* ThingsMapTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7845871CEDC35F0020F6E8 /* ThingsMapTable.swift */; };
 		AFA0F7881CE97104009D1218 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA0F7871CE97104009D1218 /* AppDelegate.swift */; };
 		AFA0F78A1CE97104009D1218 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA0F7891CE97104009D1218 /* ViewController.swift */; };
 		AFA0F78D1CE97104009D1218 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFA0F78B1CE97104009D1218 /* Main.storyboard */; };
@@ -69,6 +71,8 @@
 		AF78457C1CEAFEC60020F6E8 /* AppConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
 		AF78457F1CEB09DC0020F6E8 /* AddGroupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddGroupViewController.swift; sourceTree = "<group>"; };
 		AF7845821CEB0ACA0020F6E8 /* GroupSelectTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupSelectTableViewCell.swift; sourceTree = "<group>"; };
+		AF7845851CEC1DE30020F6E8 /* ThingInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThingInfoViewController.swift; sourceTree = "<group>"; };
+		AF7845871CEDC35F0020F6E8 /* ThingsMapTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThingsMapTable.swift; sourceTree = "<group>"; };
 		AFA0F7841CE97104009D1218 /* PlanB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlanB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFA0F7871CE97104009D1218 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AFA0F7891CE97104009D1218 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -160,6 +164,7 @@
 			children = (
 				AF7845641CE9AC9B0020F6E8 /* ThingTable.swift */,
 				AF7845681CE9B12D0020F6E8 /* WorkGroupTable.swift */,
+				AF7845871CEDC35F0020F6E8 /* ThingsMapTable.swift */,
 			);
 			path = Tables;
 			sourceTree = "<group>";
@@ -175,6 +180,7 @@
 		AF7845731CEABD2C0020F6E8 /* Pages */ = {
 			isa = PBXGroup;
 			children = (
+				AF7845841CEC1CD90020F6E8 /* AddNewThing */,
 				AF78457E1CEB09C70020F6E8 /* AddGroupViewController */,
 				AF7845741CEABD3E0020F6E8 /* MainPage */,
 			);
@@ -213,6 +219,14 @@
 				AF7845821CEB0ACA0020F6E8 /* GroupSelectTableViewCell.swift */,
 			);
 			name = Views;
+			sourceTree = "<group>";
+		};
+		AF7845841CEC1CD90020F6E8 /* AddNewThing */ = {
+			isa = PBXGroup;
+			children = (
+				AF7845851CEC1DE30020F6E8 /* ThingInfoViewController.swift */,
+			);
+			path = AddNewThing;
 			sourceTree = "<group>";
 		};
 		AFA0F77B1CE97103009D1218 = {
@@ -541,6 +555,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF78456C1CE9B9D80020F6E8 /* CoreService.swift in Sources */,
+				AF7845861CEC1DE30020F6E8 /* ThingInfoViewController.swift in Sources */,
 				AFA0F7D61CE971D5009D1218 /* NetworkManagerProtocol.swift in Sources */,
 				AFA0F7D31CE971D5009D1218 /* NetworkManager.swift in Sources */,
 				AFA0F7DA1CE971D5009D1218 /* DefaultDatabase.swift in Sources */,
@@ -579,6 +594,7 @@
 				AF78455E1CE9A81C0020F6E8 /* Thing.swift in Sources */,
 				AFA0F7D81CE971D5009D1218 /* UIViewController+TaskManager.swift in Sources */,
 				AF78457D1CEAFEC60020F6E8 /* AppConfig.swift in Sources */,
+				AF7845881CEDC35F0020F6E8 /* ThingsMapTable.swift in Sources */,
 				AF7845691CE9B12D0020F6E8 /* WorkGroupTable.swift in Sources */,
 				AF7845701CE9C8690020F6E8 /* NSDate+Extentsions.swift in Sources */,
 			);

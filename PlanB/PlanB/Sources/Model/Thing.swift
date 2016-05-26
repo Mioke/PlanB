@@ -19,7 +19,17 @@ class Thing: NSObject {
     var groupId: Int = -1
     
     var title: String = ""
-    var isFinished: Bool = false
+    var isFinished: Bool = false {
+        didSet {
+            if isFinished {
+                finishedDate = NSDate()
+            } else {
+                finishedDate = nil
+            }
+        }
+    }
+    var finishedDate: NSDate?
+    var isSuccess: Bool = false
     
     override init() {
         super.init()
@@ -49,7 +59,9 @@ extension Thing: RecordProtocol {
             "remark":           self.remark,
             "group_id":         self.groupId,
             "title":            self.title,
-            "is_finished":      self.isFinished
+            "is_finished":      self.isFinished,
+            "finished_date":    self.finishedDate != nil ? Int(self.finishedDate!.timeIntervalSince1970) : NSNull(),
+            "is_success":       self.isSuccess.hashValue
         ]
     }
     
@@ -66,6 +78,11 @@ extension Thing: RecordProtocol {
             new.groupId = dictionary["group_id"] as? Int ?? -1
             new.title = dictionary["title"] as? String ?? ""
             new.isFinished = Bool(dictionary["is_finished"] as? Int ?? 0)
+            
+            if dictionary["finished_date"] is Int {
+                new.finishedDate = NSDate(timeIntervalSince1970: NSTimeInterval(dictionary["finished_date"] as! Int))
+            }
+            new.isSuccess = Bool(dictionary["is_success"] as? Int ?? 0)
             return new
         }
         return nil

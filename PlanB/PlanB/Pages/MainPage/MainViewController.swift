@@ -28,6 +28,7 @@ class MainViewController: UIViewController {
         }
         self.navigationController?.navigationBar.barStyle = .Black
         self.navigationController?.navigationBar.translucent = true
+        self.navigationController?.navigationBar.tintColor = UIColor.whiteColor()
         
         self.navigationItem.leftBarButtonItem = UIBarButtonItem(title: "CG",
                                                                 style: .Plain,
@@ -48,7 +49,6 @@ class MainViewController: UIViewController {
         
         if CoreService.sharedInstance.shouldReload {
             CoreService.sharedInstance.shouldReload = false
-            
             self.reloadData()
         }
     }
@@ -90,15 +90,22 @@ class MainViewController: UIViewController {
         self.animationSwitch = true
         self.tableView.reloadData()
     }
-    /*
+    
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.
+        
+        if segue.identifier == "toDetailSegue" {
+            guard let vc = segue.destinationViewController as? ThingInfoViewController,
+                let cell = sender as? ThingSummaryCell else {
+                assert(false, "Wrong destination vc")
+            }
+            vc.thing = cell.thing
+        }
     }
-    */
     
 }
 
@@ -140,5 +147,7 @@ extension MainViewController: UITableViewDelegate, UITableViewDataSource {
         }
     }
     
-    
+    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        
+    }
 }

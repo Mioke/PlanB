@@ -13,7 +13,11 @@ class ThingSummaryCell: UITableViewCell {
     @IBOutlet weak var title: UILabel!
     @IBOutlet weak var checkImageView: UIImageView!
     
+    weak var thing: Thing?
+    
     func setWithThing(thing: Thing) -> Void {
+        self.thing = thing
+        
         self.title.text = thing.title
         self.setFinished(thing.isFinished)
     }

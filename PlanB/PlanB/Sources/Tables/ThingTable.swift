@@ -30,7 +30,9 @@ class ThingTable: KMPersistanceTable, TableProtocol {
                 "remark":           "TEXT",
                 "group_id":         "Integer",
                 "title":            "TEXT",
-                "is_finished":      "BOOL"
+                "is_finished":      "BOOL",
+                "finished_date":    "Integer default NULL",
+                "is_success":       "Integer default 0"
             ]
         }
     }
