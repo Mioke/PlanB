@@ -101,18 +101,11 @@ class KMPersistanceTable: NSObject {
     
     private weak var child: TableProtocol?
     
-    struct Static {
-        static var key: dispatch_once_t = 0
-    }
-    
     override init() {
         super.init()
         if self is TableProtocol {
             self.child = (self as! TableProtocol)
-            
-            dispatch_once(&Static.key, {
-                DatabaseCommand.createTable(self.child!, inDataBase: self.child!.database!)
-            })
+            DatabaseCommand.createTable(self.child!, inDataBase: self.child!.database!)
         } else {
             assert(false, "KMPersistanceTable must conform to TableProtocol")
         }

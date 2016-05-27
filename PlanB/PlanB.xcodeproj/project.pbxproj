@@ -337,11 +337,11 @@
 		AFA0F7AD1CE971D5009D1218 /* KMNetworking */ = {
 			isa = PBXGroup;
 			children = (
-				AFA0F7AE1CE971D5009D1218 /* BaseApiManager.swift */,
 				AFA0F7AF1CE971D5009D1218 /* Caches */,
 				AFA0F7B11CE971D5009D1218 /* Generators */,
-				AFA0F7B31CE971D5009D1218 /* NetworkManager.swift */,
 				AFA0F7B41CE971D5009D1218 /* Protocols */,
+				AFA0F7AE1CE971D5009D1218 /* BaseApiManager.swift */,
+				AFA0F7B31CE971D5009D1218 /* NetworkManager.swift */,
 				AFA0F7B81CE971D5009D1218 /* Server.swift */,
 			);
 			path = KMNetworking;
