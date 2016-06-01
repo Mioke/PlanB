@@ -19,6 +19,7 @@ class MainViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        // Do any additional setup after loading the view.
         
         if let _ = CoreService.sharedInstance.lastGroupID() {
             self.reloadData()
@@ -34,14 +35,11 @@ class MainViewController: UIViewController {
                                                                 style: .Plain,
                                                                 target: self,
                                                                 action: #selector(MainViewController.goToGroupViewController))
-        
-
-        // Do any additional setup after loading the view.
     }
     
     override func viewDidAppear(animated: Bool) {
         super.viewDidAppear(animated)
-        
+    
     }
     
     override func viewWillAppear(animated: Bool) {
